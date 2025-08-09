@@ -1,0 +1,16 @@
+
+.search-container {
+     max-width: 1000px;
+  /* margin: 30px auto; */
+  padding: 20px;
+}
+
+.summary-card1 {
+  background-color: #e3f2fd;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  color: #0d47a1;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.1);
+}

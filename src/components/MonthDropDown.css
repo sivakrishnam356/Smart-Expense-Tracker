@@ -1,0 +1,57 @@
+.month-dropdown-form {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 15px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  flex-wrap: wrap;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.month-dropdown-form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+.month-dropdown-form select {
+  margin-top: 4px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  min-width: 150px;
+  background-color: #fff;
+}
+
+.month-dropdown-form button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-top: 22px;
+}
+
+.month-dropdown-form button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+  .month-dropdown-form {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .month-dropdown-form button {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+

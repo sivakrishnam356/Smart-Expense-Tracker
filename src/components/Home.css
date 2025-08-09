@@ -1,0 +1,85 @@
+.home {
+  padding: 24px;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  position: relative;
+}
+
+.welcome {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.summary-card {
+  background-color: #e3f2fd;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  color: #0d47a1;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.1);
+}
+
+.total-amount {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+/* .recent-expenses h3 {
+  margin-bottom: 15px;
+  color: #333;
+} */
+
+/* .expense-card {
+  background-color: white;
+  padding: 14px 20px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+/* .expense-card h4 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.expense-card p {
+  margin: 4px 0 0;
+  font-size: 16px;
+  color: #007bff;
+} */
+
+.floating-add-btn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 999;
+}
+
+.floating-add-btn .plusButton {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;          /* makes it round */
+  font-size: 28px;
+  padding: 0;
+  line-height: 1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Optional hover effect */
+.floating-add-btn .plusButton:hover {
+  background-color: #0056b3;  /* darker primary */
+  transform: scale(1.05);
+}
